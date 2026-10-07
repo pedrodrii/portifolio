@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Pedro Rodrigues, desenvolvedor em formação e estudante de Análise e Desenvolvimento de Sistemas.">
+  <title>Pedro Rodrigues | Desenvolvedor em formação</title>
+  <!-- O CSS fica em um arquivo separado: style.css (mesma pasta do index.html) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Link para teclado: permite pular o menu e ir direto ao conteúdo -->
+  <a class="pular-menu" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- CABEÇALHO: foto, nome, título profissional e menu -->
+  <header class="lateral">
+    <div class="lateral-conteudo">
+      <!-- Salve sua foto como assets/foto-perfil.jpg -->
+      <img class="foto" src="assets/foto-perfil.jpg" alt="Foto de perfil de Pedro Rodrigues" width="160" height="160">
+      <h1>Pedro Rodrigues</h1>
+      <p class="titulo">Desenvolvedor em formação</p>
+
+      <!-- MENU com links internos: cada href aponta para o id de uma seção -->
+      <nav aria-label="Menu principal">
+        <ul>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#competencias-tecnicas">Competências técnicas</a></li>
+          <li><a href="#competencias-comportamentais">Competências comportamentais</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#curriculo">Currículo</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main id="conteudo">
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" aria-labelledby="titulo-sobre">
+      <h2 id="titulo-sobre">Sobre mim</h2>
+      <p>Sou uma pessoa curiosa e estudante de Análise e Desenvolvimento de Sistemas. Busco aprender diversos assuntos, sempre focado na área em que quero atuar: o setor financeiro e o futuro da tecnologia.</p>
+
+      <h3>Áreas de interesse</h3>
+      <ul class="lista-etiquetas">
+        <li>Finanças</li>
+        <li>Futuro da tecnologia</li>
+        <li>Cibersegurança</li>
+      </ul>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section id="formacao" aria-labelledby="titulo-formacao">
+      <h2 id="titulo-formacao">Formação</h2>
+
+      <h3>Graduação</h3>
+      <article class="cartao">
+        <h4>Análise e Desenvolvimento de Sistemas</h4>
+        <p>Universidade Cruzeiro do Sul</p>
+        <dl class="detalhes">
+          <div>
+            <dt>Período atual</dt>
+            <dd>1º semestre</dd>
+          </div>
+          <div>
+            <dt>Previsão de conclusão</dt>
+            <dd>Meados de 2028</dd>
+          </div>
+        </dl>
+      </article>
+
+      <h3>Cursos concluídos</h3>
+      <!-- Datas e cargas horárias não foram informadas: [INFORMAÇÃO A SER PREENCHIDA] se quiser acrescentar -->
+      <div class="grade-dois">
+        <article class="cartao">
+          <h4>PC Soluções em Cursos Profissionalizantes</h4>
+          <ul class="lista-simples">
+            <li>Inglês (intermediário)</li>
+            <li>TI Verde</li>
+            <li>Sustentabilidade e gestão de resíduos</li>
+            <li>Pacote Office (avançado)</li>
+            <li>Logística</li>
+            <li>Finanças</li>
+            <li>Antivírus</li>
+            <li>Power BI</li>
+          </ul>
+        </article>
+        <article class="cartao">
+          <h4>SENAI</h4>
+          <ul class="lista-simples">
+            <li>Desenho técnico</li>
+            <li>Desenvolvimento pessoal</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- COMPETÊNCIAS TÉCNICAS: níveis exatamente como informados -->
+    <section id="competencias-tecnicas" aria-labelledby="titulo-tecnicas">
+      <h2 id="titulo-tecnicas">Competências técnicas</h2>
+      <p>Estou no início da graduação, por isso a maior parte dos meus conhecimentos técnicos está em nível inicial.</p>
+      <ul class="lista-competencias">
+        <li><span class="nome">C</span> <span class="nivel">Inicial</span></li>
+        <li><span class="nome">Java</span> <span class="nivel">Inicial</span></li>
+        <li><span class="nome">Python</span> <span class="nivel">Inicial</span></li>
+        <li><span class="nome">Banco de dados</span> <span class="nivel">Inicial</span></li>
+        <li><span class="nome">Power BI</span> <span class="nivel">Inicial</span></li>
+        <li><span class="nome">Inglês</span> <span class="nivel">Intermediário</span></li>
+        <li><span class="nome">Pacote Office</span> <span class="nivel">Avançado</span></li>
+      </ul>
+    </section>
+
+    <!-- COMPETÊNCIAS COMPORTAMENTAIS -->
+    <section id="competencias-comportamentais" aria-labelledby="titulo-comportamentais">
+      <h2 id="titulo-comportamentais">Competências comportamentais</h2>
+      <article class="cartao">
+        <h3>Proatividade</h3>
+        <p>No meu trabalho, adianto atividades fora da minha responsabilidade direta para dar andamento às tarefas.</p>
+      </article>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" aria-labelledby="titulo-projetos">
+      <h2 id="titulo-projetos">Projetos</h2>
+      <div class="grade-dois">
+
+        <!-- Cartão do primeiro projeto -->
+        <article class="cartao cartao-projeto">
+          <!-- Se quiser uma imagem do projeto, salve como assets/projeto-01.png e remova os comentários abaixo
+          <img src="assets/projeto-01.png" alt="[DESCREVA A IMAGEM DO PROJETO]">
+          -->
+          <h3>Portfólio profissional</h3>
+          <p><strong>Objetivo:</strong> publicar meu portfólio profissional e meu currículo no GitHub, como atividade da disciplina Design Profissional.</p>
+          <p><strong>Tecnologias:</strong> HTML5, CSS3, Git, GitHub e GitHub Pages.</p>
+          <p><strong>Participação:</strong> projeto desenvolvido individualmente.</p>
+          <!-- Aprendizagens: [INFORMAÇÃO A SER PREENCHIDA]
+               Quando quiser, acrescente aqui: <p><strong>Aprendizagens:</strong> seu texto.</p> -->
+          <div class="botoes">
+            <!-- Confirme que o nome do repositório é portfolio-profissional -->
+            <a class="botao" href="https://github.com/pedrodrii/portfolio-profissional" target="_blank" rel="noopener noreferrer">Ver repositório no GitHub</a>
+            <!-- Link do GitHub Pages: [INSERIR LINK DO GITHUB PAGES APÓS A PUBLICAÇÃO]
+            <a class="botao botao-secundario" href="https://pedrodrii.github.io/portfolio-profissional/">Ver site publicado</a>
+            -->
+          </div>
+        </article>
+
+        <!-- Aviso de novos projetos -->
+        <article class="cartao cartao-aviso">
+          <h3>Projetos em desenvolvimento</h3>
+          <p>Novos trabalhos serão adicionados aqui.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CURRÍCULO -->
+    <section id="curriculo" aria-labelledby="titulo-curriculo">
+      <h2 id="titulo-curriculo">Currículo</h2>
+      <p>O currículo em PDF será disponibilizado em breve.</p>
+      <!-- Currículo: [INFORMAÇÃO A SER PREENCHIDA]
+           Quando tiver o arquivo (sem CPF, RG, endereço ou telefone pessoal), salve como assets/curriculo.pdf,
+           apague o parágrafo acima e use o botão abaixo:
+      <a class="botao" href="assets/curriculo.pdf" target="_blank" rel="noopener noreferrer">Abrir currículo em PDF</a>
+      -->
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" aria-labelledby="titulo-contato">
+      <h2 id="titulo-contato">Contato</h2>
+      <div class="botoes">
+        <a class="botao" href="https://github.com/pedrodrii" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="botao" href="mailto:pedrogabrielrodrigues327@gmail.com">pedrogabrielrodrigues327@gmail.com</a>
+        <!-- LinkedIn: [INFORMAÇÃO A SER PREENCHIDA]
+        <a class="botao" href="ENDEREÇO-DO-SEU-LINKEDIN" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ com autoria -->
+  <footer class="rodape">
+    <p>&copy; 2026 Pedro Rodrigues. Portfólio desenvolvido para a disciplina Design Profissional.</p>
+  </footer>
+
+</body>
+</html>
